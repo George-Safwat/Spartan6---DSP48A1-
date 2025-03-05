@@ -1,2 +1,3 @@
-# Spartan6---DSP48A1-
-Digital design project 
+#Digital design project 
+##Spartan6---DSP48A1-
+
