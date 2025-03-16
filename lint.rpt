@@ -1,0 +1,143 @@
+====================================================================================================
+Lint Check Report
+Questa Lint  Version 2021.1 4558100 win64 28-Jan-2021
+
+Timestamp            : Tue Mar  4 22:54:09 2025
+Description          : Report for referring checks count, check violations details, and  design information
+Design               : DSP
+Database             : C:/Users/Legion/Desktop/Project_DSP/lint.db
+Design Quality Score : 94.8%
+
+Sections:
+   Section 1 : Check Summary
+   Section 2 : Check Details
+   Section 3 : Design Information
+====================================================================================================
+
+
+====================================================================================================
+Section 1 : Check Summary
+====================================================================================================
+-------------
+| Error (1) |
+-------------
+  inst_port_width_mismatch                : 1
+
+---------------
+| Warning (5) |
+---------------
+  mux_select_const                        : 5
+
+-------------
+| Info (12) |
+-------------
+  condition_const                         : 2
+  parameter_name_duplicate                : 2
+  line_char_large                         : 2
+  multi_ports_in_single_line              : 6
+
+----------------
+| Resolved (0) |
+----------------
+
+
+====================================================================================================
+Section 2 : Check Details
+====================================================================================================
+-------------
+| Error (1) |
+-------------
+
+Check: inst_port_width_mismatch [Category: Rtl Design Style] (1)
+       [Message: Widths of an instance port and its connected net are not equal.  Instance '<instance>', Signal '<signal>', Width '<argument_width>', Module '<module>', File '<file>', Line '<line>', Master Module Info: Port '<port>', Width '<formal_width>', File '<master_file>', Line '<master_line>'.]
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+inst_port_width_mismatch: [uninspected] Widths of an instance port and its connected net are not equal.  Instance 'p', Signal 'post_add_sub', Width '49', Module 'DSP', File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line '43', Master Module Info: Port 'in', Width '48', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '1'.
+
+
+
+---------------
+| Warning (5) |
+---------------
+
+Check: mux_select_const [Category: Connectivity] (5)
+       [Message: Constant value drives mux select pin. Signal '<signal>', Module '<module>', File '<file>', Line '<line>'.]
+----------------------------------------------------------------------------------------------------------------------------
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'a0.out', Module 'Mux_Reg', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '8'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'c_in.out', Module 'Mux_Reg', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '8'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'm.out', Module 'Mux_Reg', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '8'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'op1.out', Module 'Mux_Reg', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '8'.
+
+mux_select_const: [uninspected] Constant value drives mux select pin. Signal 'op4.out', Module 'Mux_Reg', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '8'.
+
+
+
+-------------
+| Info (12) |
+-------------
+
+Check: condition_const [Category: Rtl Design Style] (2)
+       [Message: Condition expression is a constant. Module '<module>', File '<file>', Line '<line>'.]
+-------------------------------------------------------------------------------------------------------
+condition_const: [uninspected] Condition expression is a constant. Module 'Muxb', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '43'. [RTL ID:28caa065_00200]
+
+condition_const: [uninspected] Condition expression is a constant. Module 'mux_cin', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '58'. [RTL ID:7e39d81b_00200]
+
+
+Check: parameter_name_duplicate [Category: Nomenclature Style] (2)
+       [Message: Same parameter name is used in more than one module. Parameter '<parameter>', Total count '<count>', First module: Module '<module1>', File '<file1>', Line '<line1>', Second module: Module '<module2>', File '<file2>', Line '<line2>']
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+parameter_name_duplicate: [uninspected] Same parameter name is used in more than one module. Parameter 'RSTTYPE', Total count '2', First module: Module 'DSP', File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line '7', Second module: Module 'Mux_Reg', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '2'
+
+parameter_name_duplicate: [uninspected] Same parameter name is used in more than one module. Parameter 'sel', Total count '2', First module: Module 'Muxb', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '39', Second module: Module 'mux_cin', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '55'
+
+
+Check: line_char_large [Category: Rtl Design Style] (2)
+       [Message: Line has more characters than the specified limit. Current Count '<count>', Specified Limit '<limit>', File '<file>', Line '<line>'.]
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+line_char_large: [uninspected] Line has more characters than the specified limit. Current Count '114', Specified Limit '110', File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line '47'.
+    1 more occurrence at: line 48.
+
+line_char_large: [uninspected] Line has more characters than the specified limit. Current Count '112', Specified Limit '110', File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line '57'.
+
+
+Check: multi_ports_in_single_line [Category: Rtl Design Style] (6)
+       [Message: Multiple ports are declared in one line. Module '<module>', File '<file>', Line '<line>'.]
+------------------------------------------------------------------------------------------------------------
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'DSP', File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line '10'.
+    5 more occurrences at: line 11, line 12, line 14, line 15, and line 16.
+
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'Mux_Reg', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '4'.
+
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'mux2', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '48'.
+
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'mux_cin', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '56'.
+
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'mux4', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '62'.
+
+multi_ports_in_single_line: [uninspected] Multiple ports are declared in one line. Module 'mux4_x', File 'C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v', Line '70'.
+
+
+
+----------------
+| Resolved (0) |
+----------------
+
+
+
+====================================================================================================
+Section 3 : Design Information
+====================================================================================================
+-----------
+| Summary |
+-----------
+  Register Bits                           : 336
+  Latch Bits                              : 0
+  User-specified Blackboxes               : 0
+  Inferred Blackboxes                     : 0
+  Empty Modules                           : 0
+  Unresolved Modules                      : 0
+  Hierarchical IPs                        : 0
+

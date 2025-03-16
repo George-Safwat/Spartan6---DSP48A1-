@@ -1,0 +1,229 @@
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Tue Mar  4 22:54:11 2025 by Eng.George on DESKTOP-94CQ016
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Tue Mar  4 22:54:06 2025 by Eng.George on DESKTOP-94CQ016
+
+
+Command: netlist elaborate
+Command arguments:
+    -zdb C:/Users/Legion/Desktop/Project_DSP/qcache/DB/zdb_76
+    -tool lint
+    -d DSP
+    -L work
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Elaborating Design...
+Reading MTI mapping for library mapping
+Writing all MTI mappings to vmap output ...
+
+Top level modules:
+	DSP
+
+Analyzing design...
+-- Loading module z0in_work.DSP
+
+Performing 103 Lint Checks
+=============================
+
+Lint Stage 1 of 5 - Pre Design Elaboration (4 checks)
+------------------------------------------------------
+-- Loading module z0in_work.Mux_Reg
+-- Loading module z0in_work.Muxb
+-- Loading module z0in_work.mux2
+-- Loading module z0in_work.mux_cin
+-- Loading module z0in_work.mux4
+-- Loading module z0in_work.mux4_x
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'in3'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(69), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 61.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'in3'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(61), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 59.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 57.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 55.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 52.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 51.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 50.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 49.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 48.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 47.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 45.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'in'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 43.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 43.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 41.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 39.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 37.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 35.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 32.  [parser-285]
+        : Elaboration will continue.
+Warning : Vopt warning.  (vopt-2241) Connection width does not match width of port 'sel'. The port definition is at: C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v(1), File 'C:/Users/Legion/Desktop/Project_DSP/DSP.v', Line 31.  [parser-285]
+        : Elaboration will continue.
+Optimizing 11 design-units (inlining 0/22 module instances):
+-- Optimizing module z0in_work.Mux_Reg(fast)
+Lint Stage-1 100% complete [Total Progress -   7%]
+
+Lint Stage 2 of 5 - Design Elaboration (66 checks)
+---------------------------------------------------
+-- Optimizing module z0in_work.Muxb(fast)
+-- Optimizing module z0in_work.mux2(fast)
+Lint Stage-2  18% complete (2 out of 11 modules checked) [Total Progress -   8%]
+-- Optimizing module z0in_work.Mux_Reg(fast__1)
+-- Optimizing module z0in_work.Mux_Reg(fast__2)
+Lint Stage-2  36% complete (4 out of 11 modules checked) [Total Progress -  11%]
+-- Optimizing module z0in_work.Mux_Reg(fast__3)
+-- Optimizing module z0in_work.Mux_Reg(fast__4)
+Lint Stage-2  55% complete (6 out of 11 modules checked) [Total Progress -  14%]
+-- Optimizing module z0in_work.mux_cin(fast)
+-- Optimizing module z0in_work.mux4(fast)
+Lint Stage-2  73% complete (8 out of 11 modules checked) [Total Progress -  18%]
+-- Optimizing module z0in_work.mux4_x(fast)
+-- Optimizing module z0in_work.DSP(fast)
+Lint Stage-2  91% complete (10 out of 11 modules checked) [Total Progress -  21%]
+Optimized design name is zi_opt_def_608557863_1
+Lint Stage-2 100% complete (11 out of 11 modules checked) [Total Progress -  23%]
+Summary: 19 Warnings in processing "netlist elaborate"
+End of log Tue Mar  4 22:54:07 2025
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Tue Mar  4 22:54:08 2025 by Eng.George on DESKTOP-94CQ016
+
+
+Command: netlist create
+Command arguments:
+    -zdb C:/Users/Legion/Desktop/Project_DSP/qcache/DB/zdb_76
+    -tool lint
+    -d DSP
+    -L work
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Synthesizing netlist...
+
+Lint Stage 3 of 5 - Post Design Elaboration (17 checks)
+--------------------------------------------------------
+Lint Stage-3  24% complete [Total Progress -  27%]
+Lint Stage-3  47% complete [Total Progress -  29%]
+Lint Stage-3  71% complete [Total Progress -  32%]
+Lint Stage-3  94% complete [Total Progress -  34%]
+Lint Stage-3 100% complete [Total Progress -  35%]
+Analyzing designs.
+Elaborating module 'Mux_Reg'.
+Elaborating module 'Muxb'.
+Elaborating module 'mux2'.
+Elaborating module 'Mux_Reg(1)'.
+Elaborating module 'Mux_Reg(2)'.
+Elaborating module 'Mux_Reg(3)'.
+Elaborating module 'Mux_Reg(4)'.
+Elaborating module 'mux_cin'.
+Elaborating module 'mux4'.
+Elaborating module 'mux4_x'.
+Elaborating module 'DSP'.
+
+Lint Stage 4 of 5 - Design Synthesis (1 checks)
+------------------------------------------------
+Lint Stage-4 100% complete [Total Progress -  75%]
+
+Lint Stage 5 of 5 - Post Design Synthesis (15 checks)
+------------------------------------------------------
+Lint Stage-5  20% complete [Total Progress -  88%]
+Lint Stage-5  40% complete [Total Progress -  91%]
+Lint Stage-5  60% complete [Total Progress -  94%]
+Lint Stage-5  80% complete [Total Progress -  97%]
+Lint Stage-5 100% complete [Total Progress - 100%]
+
+Lint Checking Completed
+##Time Taken (Synthesis) = 186.000000 ticks = 0.186000 secs
+
+Summary: 19 Warnings in processing "netlist create"
+End of log Tue Mar  4 22:54:09 2025
+
+
+# Reading design database from C:/Users/Legion/Desktop/Project_DSP/qcache/LINT/CACHE...completed (0.003 (s)).
+End of log Tue Mar  4 22:54:09 2025
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Tue Mar  4 22:54:09 2025 by Eng.George on DESKTOP-94CQ016
+
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Applying Lint Waivers...
+
+Message Summary
+---------------------------------------------------------------------------
+Count  Type     Message ID         Summary
+---------------------------------------------------------------------------
+   19  Warning  parser-285         Vopt warning.
+
+Final Process Statistics: Max memory 217MB, CPU time 0s, Total time 3s
+End of log Tue Mar  4 22:54:10 2025
+
+
+Result Summary
+-----------------------------------------------------------
+Error (1)
+-----------------------------------------------------------
+  inst_port_width_mismatch                :1
+
+-----------------------------------------------------------
+Warning (5)
+-----------------------------------------------------------
+  mux_select_const                        :5
+
+-----------------------------------------------------------
+Info (12)
+-----------------------------------------------------------
+  condition_const                         :2
+  parameter_name_duplicate                :2
+  line_char_large                         :2
+  multi_ports_in_single_line              :6
+
+-----------------------------------------------------------
+Resolved (0)
+-----------------------------------------------------------
+
+# Generating Debug Information...
+
+=================================================================
+To view results in batch
+  C:/Users/Legion/Desktop/Project_DSP/lint.rpt
+
+To view results in GUI (Beta Version) 
+  qverify C:/Users/Legion/Desktop/Project_DSP/lint.db
+=================================================================

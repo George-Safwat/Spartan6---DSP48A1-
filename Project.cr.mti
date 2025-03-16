@@ -1,0 +1,32 @@
+C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v {1 {vlog -work work -vopt -stats=none C:/Users/Legion/Desktop/Project_DSP/MUX_REG.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Mux_Reg
+-- Compiling module Muxb
+-- Compiling module mux2
+-- Compiling module mux_cin
+-- Compiling module mux4
+-- Compiling module mux4_x
+
+Top level modules:
+	Mux_Reg
+	Muxb
+	mux2
+	mux_cin
+	mux4
+	mux4_x
+
+} {} {}} C:/Users/Legion/Desktop/Project_DSP/DSP.v {1 {vlog -work work -vopt -stats=none C:/Users/Legion/Desktop/Project_DSP/DSP.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module DSP
+
+Top level modules:
+	DSP
+
+} {} {}} C:/Users/Legion/Desktop/Project_DSP/DSP_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/Legion/Desktop/Project_DSP/DSP_tb.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module DSP_tb
+
+Top level modules:
+	DSP_tb
+
+} {} {}}
